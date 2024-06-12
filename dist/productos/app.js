@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
     let a = document.getElementById("ingresar");
     if (username) {
         a.textContent = "Cerrar sesión";
-        a.href = "../../index.html";
     }
     a.addEventListener("click", () => {
         if (username) {
