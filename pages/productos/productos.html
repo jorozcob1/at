@@ -231,6 +231,12 @@
       type="module"
       src="../../dist/productos/logica_productos.js"
     ></script>
+    <script>
+      const a = document.getElementById("ingresar");
+      if (a.textContent == "Cerrar Sesión") {
+        a.href = "../../index.html";
+      }
+    </script>
     <script type="module" src="../../dist/productos/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
